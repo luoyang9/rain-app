@@ -1,0 +1,21 @@
+#pad1, #pad2, #pad3, #pad4 {
+	width: 100px;
+	height: 100px;
+	background-color: gray;
+	margin: 10px;
+}
+
+#darkoverlay {
+	width:100%;
+	height: 100%;
+	background-color: rgba(40, 40, 40, 0.7);
+	position: fixed;
+	top: 0;
+	left: 0;
+	text-align: center;
+}
+
+#darkoverlay p {
+	color: white;
+	font-size: 30px;
+}
